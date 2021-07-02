@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body{
+    font-family: 'Lato', sans-serif;
+      line-height: 2em;
+ background-color: #eee;
+  }
+  
+  #header {
+    display: flex;
+  
+  }
+
+  .logo {
+    width: 300px;
+    cursor: pointer;
+  }
+  
+  #nav-bar {
+    position: fixed;
+    top: 0px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #eee;
+    overflow: hidden;
+  }
+
+  .nav-link {
+    float: left;
+    display: block;
+    color: #000000;
+    text-align: center;
+    padding: 14px 45px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+
+  ul {
+    width: 35vw;
+    justify-content: space-around;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+
+  .btn {
+    display: inline-block;
+    padding: 0.4rem 1.5rem;
+    color: #333;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: #f1c40f;
+  }
+  
+
+  
+  .message-box {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 200px;
+    margin-top: 100px;
+  }
+  
+  .message-box h1 {
+    font-size: 1.7rem;
+    margin-bottom: 1rem;
+  }
+  
+  .message-box input {
+    display: block;
+    margin: auto;
+    width: 25%;
+    padding: 0.4rem;
+    margin-bottom: 1rem;
+  }
+
+  #submit {
+      width: 25%;
+      margin: 0 auto;
+      font-weight: bold;
+  }
+  
+  #container {
+    max-width: 960px;
+    margin: 2rem auto 0;
+    overflow: hidden;
+    background-color: #eee;
+  }
+
+
+  #features {
+    padding: 1rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    display: flex;
+    flex-direction: column;
+
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  #features .feature {
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    margin: 2em;
+  }
+  
+  #features .feature i {
+    color: #ff8c00;
+  }
+  
+  
+  #features .feature div h2 {
+    font-size: 1.5rem;
+    padding: 0;
+  }
+  #features .feature div p {
+padding: 0;
+margin: 0;
+  }
+
+.feature__icon{
+    width: 20vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+}
+.feature__content{
+    width: 80vw;
+}
+
+#how-it-works{
+    margin: 2em;
+ text-align: center;
+}
+
+  
